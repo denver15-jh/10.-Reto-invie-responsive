@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Index-Invie</title>
+</head>
+<body id="slidercapaMenu" class="">
+  <header class="header">
+    <div class="contenedor alinear-header">
+      <div class="bar" id="bar">
+				<i class="fa fa-bars fa-lg" aria-hidden="true" id="iconMenu"></i>
+			</div>
+      <figure>
+        <a href="index.html">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" srcset="img/invie.png 1x, img/invie2x.png 2x" alt="Invie Logo">
+        </a>
+      </figure>
+      <nav class="menu" id="menu">
+        <ul>
+          <li class="menu-li"><a href="index.html">Home</a></li>
+          <li id="guitarra" class="menu-li"><a href="index.html #guitarras">Guitarras</a></li>
+          <li class="menu-li"><a href="precios.html">Precios</a></li>
+        </ul>
+      </nav>
+    </div>
+    <section class="contenedor">
+      <div class="contenedor-titulos">
+        <h1 class="titulo-m">Guitarras <span class="titulo-m">Invi</span>sibles.</h1>
+        <h2 class="subtitulo-m">Se la guitarra de rock que siempre quisiste ser.</h2>
+      </div>
+      <input type="button" value="Conoce mas" class="btn button-header">
+    </section>
+</header>
+<section class="wrap contenedor" id="precios">
+		<h2 class="titulo-c">Precios de tus mejores guitarras</h2>
+    <div class="contenedor-table">
+      <table>
+  			<thead>
+  				<th>Modelo</th>
+  				<th>Precio</th>
+  				<th>Descripción</th>
+          <th>Modelo</th>
+  			</thead>
+  			<tbody>
+  				<tr>
+  					<td>Fender Stratocaster</td>
+  					<td>$15.000</td>
+  					<td>Guitarra Electrica</td>
+            <td>Fender Stratocaster</td>
+  				</tr>
+  				<tr>
+  					<td>Fender Telecaster</td>
+            <td>$54.000</td>
+            <td>Guitarra Electrica</td>
+            <td>Fender Stratocaster</td>
+  				</tr>
+  				<tr>
+  					<td>Fender Jaguar</td>
+  					<td>$20.000</td>
+  					<td>Guitarra Electrica</td>
+            <td>Fender Stratocaster</td>
+  				</tr>
+  			</tbody>
+  		</table>
+    </div>
+</section>
+<footer class="footer">
+	<div class="contenedor">
+		<div class="contacto">
+			<figure>
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" data-src="img/invie-white.png|img/invie-white2x.png" alt="Logo Footer"> <!-- IMAGEN RETINA CON LAZY LOADING | imagen-retina-2x | imagen-retina-3x-->
+			</figure>
+			<div class="campos">
+				<label>Teléfono:</label>
+				<div class="label">
+					<a class="footer-a" href="tel:0424-789-78-45">0424-789-78-45</a>
+				</div>
+			</div>
+			<div class="campos">
+				<label for="email">Email:</label>
+				<div class="label">
+					<a class="footer-a" href="tel:0424-789-78-45">test@algo.com</a>
+				</div>
+			</div>
+		</div>
+		<form class="formulario">
+			<div class="formulario-interno-1">
+				<div class="campos">
+					<label for="nombre">Nombre:</label>
+				  <div class="input">
+				    <input type="text" name="nombre" id="nombre" required placeholder="Nombre">
+				  </div>
+				</div>
+				<div class="campos">
+					<label for="email">Email:</label>
+					  <div class="input">
+							<input type="email" name="email" id="email" required placeholder="Email">
+						</div>
+				</div>
+				<div class="campos">
+					<label for="sexo">Sexo:</label>
+					  <div class="label">
+              <div class="contenedor-radio">
+                <div class="radio">
+                  <input type="radio" name="sexo" id="masculino" value="masculino" checked>
+                  <label for="masculino">Masculino</label>
+                </div>
+                <div class="radio">
+                  <input type="radio" name="sexo" id="femenino" value="femenino">
+                  <label for="femenino">Femenino</label>
+                </div>
+              </div>
+						</div>
+				</div>
+				<div class="campos">
+					<label for="opciones">Opciones:</label>
+					  <div class="label">
+							<div class="contenedor-checkbox">
+                <div class="checkbox">
+  								<input type="checkbox" name="cotizacion" id="cotizacion" value="cotizacion">
+                  <label for="cotizacion">Cotización</label>
+                </div>
+                <div class="checkbox">
+  								<input type="checkbox" name="reclamos" id="reclamos" value="reclamos">
+                  <label for="reclamos">Reclamos</label>
+                </div>
+                <div class="checkbox">
+  								<input type="checkbox" name="comentarios" id="comentarios" value="comentarios">
+                  <label for="comentarios">Comentarios</label>
+                </div>
+                <div class="checkbox">
+  								<input type="checkbox" name="otro" id="otro" value="otro">
+                  <label for="otro">Otro</label>
+                </div>
+							</div>
+					  </div>
+        </div>
+			</div>
+			<div class="formulario-interno-2">
+				<div class="campos">
+					<label for="comentario">Comentario:</label>
+					  <div class="input">
+						  <textarea name="comentario" id="comentario" cols="55" rows="6" required placeholder="Ingrese su comentario"></textarea>
+						</div>
+				</div>
+				<div class="center">
+					<input type="submit" value="Enviar" class="btn">
+				</div>
+			</div>
+		</form>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script type="text/javascript" src="js/efectos.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</body>
+</html>
